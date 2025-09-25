@@ -1,6 +1,10 @@
 const validator = require('validator');
 const response = require('../response');
 const fs = require('fs');
+const path = require('path');
+
+
+const file_path = path.join(process.cwd(), "./pray.json");
 
 const get = (req, res) => {
 
@@ -12,7 +16,7 @@ const get = (req, res) => {
 
 
 
-            fs.readFile('../public/pray.json', 'utf-8', (err, data) =>{
+            fs.readFile(file_path, 'utf-8', (err, data) =>{
 
                 if (err) {
                     response('', 500, 'Error server' + err.message, req, res);
