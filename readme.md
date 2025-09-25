@@ -21,7 +21,7 @@ Jika berhasil, maka web akan memberi response json seperti ini:
 
 
 
-Cukup kirimkan request ke https://islam-pray-service.vercel.app/pray dengan payload json berisi doa yang ingin diminta 
+Cukup kirimkan request ke endpoint https://islam-pray-service.vercel.app/pray dengan payload json berisi doa yang ingin diminta 
 
 ```json
 {
@@ -42,3 +42,13 @@ Nanti return nya adalah doa yang diminta berupa json
 Untuk lebih jelasnya bisa dilihat pada gambar dibawah. (Di sini saya pakai postman)
 
 ![Contoh Penggunaan](/assets/gbr_1.JPG)
+
+
+Untuk doa yang tersedia di layanan ini diantaranya:
+```
+1. doa sebelum makan
+2. doa sebelum tidur
+3. doa keluar rumah
+4. doa masuk rumah
+5. doa sebelum belajar
+```
