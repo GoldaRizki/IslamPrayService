@@ -15,7 +15,7 @@ const get = (req, res) => {
             fs.readFile('./pray.json', 'utf-8', (err, data) =>{
 
                 if (err) {
-                    response('', 500, 'Error server', req, res);
+                    response('', 500, 'Error server' + err.message, req, res);
                 }
 
 
