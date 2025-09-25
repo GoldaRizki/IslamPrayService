@@ -41,19 +41,6 @@ const get = (req, res) => {
             });
 
 
-            //let data_doa = JSON.parse(file_doa);
-            //response(JSON.stringify(data_doa), 200, 'berhasil', req, res);
-
-            /*
-
-            if(doa === 'do\'a sebelum makan'){
-                response('ALLOOHUMMA BAARIK LANAA FIIMAA RAZAQTANAA WAQINAA ‘ADZAA BANNAAR', 200, 'Do\'a berhasil dikirimkan', req, res);
-            }else if(doa === 'do\'a sebelum tidur'){
-                response('Bismikallohumma ahya wa amuut', 200, 'Do\'a berhasil dikirimkan', req, res);
-            }else{
-                response('-', 404, 'Do\'a sepertinya belum tersedia', req, res);
-            }
-                */
 
         }else{
 
