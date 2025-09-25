@@ -1,0 +1,28 @@
+[
+
+    {
+        "doa" : "doa sebelum makan", 
+        "bacaan" : "Allahumma baarik lanaa fiimaa rozaqtanaa wa qinaa 'adzaa bannaar"
+    },
+
+    {
+        "doa" : "doa sebelum tidur", 
+        "bacaan" : "Bismika allahumma ahya wa bismika amut"
+    },
+
+    {
+        "doa" : "doa keluar rumah", 
+        "bacaan" : "Bismillahhi tawakkaltu 'alallah, laa haula wa laa quwwata illa billaah"
+    },
+    
+    {
+        "doa" : "doa masuk rumah", 
+        "bacaan" : "Bismillahi walajnaa wa bismillahi kharajnaa wa-alallaahi rabbina tawak-kalnaa"
+    },
+
+    {
+        "doa" : "doa sebelum belajar", 
+        "bacaan" : "Rodlittu billahiroba, Wabil islaamidiinaa, Wabimuhammadin nabiyyaa warasuula, Robbi zidnii ilmaan warzuqnii fahmaan"
+    }
+
+]
